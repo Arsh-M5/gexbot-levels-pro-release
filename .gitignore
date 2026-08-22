@@ -1,0 +1,16 @@
+# ---- Internal tooling — never distributed ----
+obfuscation/
+
+# ---- Source & binaries: this repo ships docs + releases only ----
+src/
+*.cs
+*.csproj
+bin/
+obj/
+*.dll
+*.pdb
+
+# ---- OS / editor noise ----
+.vs/
+.DS_Store
+Thumbs.db
